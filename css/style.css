@@ -1,0 +1,40 @@
+.navbar-header {
+  height: 100px;
+  background-color: red;
+  width: 100%;
+  line-height: 100px;
+  vertical-align: middle;
+  position: fixed;
+}
+.menu {
+  text-align: center;
+  background-color: #2C3E50;
+  height: 100px;
+  color: white;
+}
+.logo {
+  text-align: center;
+  background-color: #2C3E50;
+  height: 100px;
+  color: white;
+}
+main {
+  height: 900px;
+  background-color: #1ABC9C;
+}
+.text-align-center {
+  text-align: center;
+  padding: 10% 30%;
+}
+.height_250 {
+  height: 250px;
+}
+.red {
+  background-color: red;
+}
+.item {
+  margin-bottom: 30px;
+}
+.container-portfolio {
+  margin-top: 450px;
+}
