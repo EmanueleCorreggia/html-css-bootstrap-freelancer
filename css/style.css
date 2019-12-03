@@ -44,3 +44,8 @@ main {
   line-height: 150px;
   vertical-align: middle;
 }
+.container_about {
+  height: 300px;
+  background-color: #1ABC9C;
+
+}
