@@ -36,5 +36,11 @@ main {
   margin-bottom: 30px;
 }
 .container-portfolio {
-  margin-top: 450px;
+  margin-top: 300px;
+  padding: 300px;
+}
+.portfolio {
+  text-align: center;
+  line-height: 150px;
+  vertical-align: middle;
 }
