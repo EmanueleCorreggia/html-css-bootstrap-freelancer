@@ -90,11 +90,30 @@ li {
   width: 100%;
   border-radius: 10px;
 }
-.padding_top_80 {
-  padding-top: 80;
+.p_about {
+  width: 45%;
+  color: white;
+}
+.right {
+  margin-left: 500px;
 }
 .padding_bottom_80{
   padding-bottom: 80px;
+}
+.btn-group {
+  padding: 100px;
+}
+.btn {
+  height: 80px;
+  width: 230px;
+  border: 1px solid white;
+  background-color: #1ABC9C;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+}
+.download {
+  margin-right: 8px;
 }
 @media screen and(max-width: 768px;) {
   .wrapper_xs_100 {
