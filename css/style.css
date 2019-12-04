@@ -52,7 +52,15 @@ li {
   margin: 30px 10px;
   color: white;
 }
+.color_black{
+  color: black;
 
+}
+.tilte_portfolio{
+  color: #2C3E50;
+  font-size: 45px;
+  font-weight: bold;
+}
 .line {
   display: inline-block;
   width: 100px;
@@ -60,6 +68,12 @@ li {
   border-radius: 3px;
   background-color: white;
   margin-bottom: 10px;
+}
+.line_portfolio{
+  background-color: #2C3E50;
+}
+.star_portfolio {
+  color: #2C3E50;
 }
 .graphic {
   color: white;
