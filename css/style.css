@@ -122,6 +122,13 @@ li {
   color: white;
   font-size: 20px;
 }
+.li_footer {
+  font-size: 40px;
+  color: white;
+}
+.title {
+  padding-top: 100px;
+}
 @media screen and(max-width: 768px;) {
   .wrapper_xs_100 {
     width: 100%;
