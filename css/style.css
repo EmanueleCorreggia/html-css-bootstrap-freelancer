@@ -81,10 +81,14 @@ li {
 }
 
 .box_portfolio {
-  background-color: blue;
   width: 100%;
   height: 300px;
   margin-bottom: 30px;
+}
+.img_portfolio {
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
 }
 .padding_top_80 {
   padding-top: 80;
