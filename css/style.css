@@ -1,56 +1,59 @@
-.navbar-header {
-  height: 100px;
-  background-color: red;
-  width: 100%;
-  line-height: 100px;
-  vertical-align: middle;
+body {
+}
+.header_top {
   position: fixed;
+  background-color: blue;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  top: 0;
+  left: 0;
 }
-.menu {
-  text-align: center;
-  background-color: #2C3E50;
-  height: 100px;
-  color: white;
-}
-.logo {
-  text-align: center;
-  background-color: #2C3E50;
-  height: 100px;
-  color: white;
-}
-main {
-  height: 900px;
-  background-color: #1ABC9C;
-}
-.text-align-center {
-  text-align: center;
-  padding: 10% 30%;
-}
-.height_250 {
-  height: 250px;
-}
-.red {
+.jumbo {
   background-color: red;
+  margin-top: 80px;
+  padding: 100px 0;
 }
-.item {
+.jumbo_text {
+  width: 60%;
+  margin: auto;
+}
+.box_portfolio {
+  background-color: blue;
+  width: 100%;
+  height: 300px;
   margin-bottom: 30px;
 }
-.container-portfolio {
-  margin-top: 300px;
-  padding: 300px;
+.padding_top_80 {
+  padding-top: 80;
 }
-.portfolio {
-  text-align: center;
-  line-height: 150px;
-  vertical-align: middle;
+.padding_bottom_80{
+  padding-bottom: 80px;
 }
-.container_about {
-  height: 300px;
+@media screen and(max-width: 768px;) {
+  .wrapper_xs_100 {
+    width: 100%;
+    margin: 0 auto;
+    }
+  }
+@media screen and (min-width: 768px;){
+  .wrapper_md_60 {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+.bg_green {
+  background-color: lightgreen;
+}
+.footer_top {
+  background-color: darkblue;
+}
+.footer_bottom {
+  background-color: blue;
+  padding: 30px;
+}
+.btn_green {
   background-color: #1ABC9C;
-
-}
-.container_contact {
-  height: 300px;
-  background-color: white;
-
+  color: white;
+  text-transform: uppercase;
 }
