@@ -47,6 +47,25 @@ li {
   font-weight: bold;
   color: white;
 }
+.star {
+  font-size: 30px;
+  margin: 30px 10px;
+  color: white;
+}
+
+.line {
+  display: inline-block;
+  width: 100px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.graphic {
+  color: white;
+  font-size: 30px;
+}
+
 .box_portfolio {
   background-color: blue;
   width: 100%;
