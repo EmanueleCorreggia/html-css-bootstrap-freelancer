@@ -49,22 +49,37 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="box_portfolio"> <img class="img_portfolio"src="img/cabin.png" alt=""> </div>
+              <div class="box_portfolio"> <img class="img_portfolio"src="img/cabin.png" alt="">
+                <div class="box_layover"><i class="fas fa-plus"></i></div>
+            </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="box_portfolio"><img class="img_portfolio"src="img/cake.png" alt=""></div>
+              <div class="box_portfolio"><img class="img_portfolio"src="img/cake.png" alt="">
+              <div class="box_layover"><i class="fas fa-plus"></i></div> </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="box_portfolio"><img class="img_portfolio"src="img/circus.png" alt=""></div>
+              <div class="box_portfolio"><img class="img_portfolio"src="img/circus.png" alt="">
+              <div class="box_layover"><i class="fas fa-plus"></i></div> </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="box_portfolio"><img class="img_portfolio"src="img/game.png" alt=""></div>
+              <div class="box_portfolio"><img class="img_portfolio"src="img/game.png" alt="">
+              <div class="box_layover"><i class="fas fa-plus"></i>
+              </div>
+             </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="box_portfolio"><img class="img_portfolio"src="img/safe.png" alt=""></div>
+              <div class="box_portfolio">
+                <img class="img_portfolio"src="img/safe.png" alt="">
+                <div class="box_layover"><i class="fas fa-plus"></i>
+                </div>
+              </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="box_portfolio"><img class="img_portfolio"src="img/submarine.png" alt=""></div>
+              <div class="box_portfolio">
+                <img class="img_portfolio"src="img/submarine.png" alt="">
+                <div class="box_layover"><i class="fas fa-plus"></i>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -78,10 +93,10 @@
           <div class="container">
             <div class="row">
               <div class="col-xs-12 col-md-6">
-                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+                Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
               </div>
               <div class="col-xs-12 col-md-6">
-                <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+                You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
               </div>
             </div>
             <div class="container text-center">
@@ -100,23 +115,28 @@
           <div class="container">
             <div class="row">
               <div class="col-xs-12">
-                <div class="contact_element"><p>Name</p>
-                </div>
-                <hr>
-                <div class="contact_element">Email Address</div>
-                <hr>
-                <div class="contact_element">Phone Number</div>
-                <hr>
-                <div class="contact_element">Message</div>
-                <hr>
+                <form>
+                  <div class="form-group">
+                    <label for="name" class="sr-only">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="email" class="sr-only">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="phone" class="sr-only">Phone</label>
+                    <input type="text" class="form-control" id="phone" placeholder="Phone">
+                  </div>
+                  <div class="form-group">
+                    <label for="phone" class="sr-only">Message</label>
+                    <textarea class="form-control" rows="6" placeholder="Message"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn_green">Submit</button>
+                </form>
               </div>
             </div>
           </div>
-          <div class="container">
-          <div class="btn-group" role="group">
-           <button type="button" class="btn btn-default"></i>Send</button>
-         </div>
-         </div>
         </div>
       </section>
     </main>
@@ -132,12 +152,10 @@
           </div>
           <div class="col-xs-12 col-md-4">
             <h2 class="title_footer">AROUND THE WEB</h2>
-            <ul>
-              <li class="li_footer"><i class="fab fa-facebook"></i></li>
-              <li class="li_footer" ><i class="fab fa-twitter-square"></i></i></li>
-              <li class="li_footer"><i class="fab fa-linkedin"></i></li>
-              <li class="li_footer"><i class="fab fa-fw fa-dribbble"></i></li>
-            </ul>
+            <span class="icon_social"><a href=""><i class="fab fa-facebook-f"></i></a></span>
+              <span class="icon_social"><a href=""><i class="fab fa-fw fa-twitter"></i></a></span>
+              <span class="icon_social"><a href=""><i class="fab fa-fw fa-linkedin-in"></i></a></span>
+              <span class="icon_social"><a href=""><i class="fab fa-fw fa-dribbble"></i></a></span>
           </div>
           <div class="col-xs-12 col-md-4">
             <h2 class="title_footer">ABOUT FREELANCER</h2>
